@@ -1,0 +1,106 @@
+
+body, h1, h2, h3, p, ul, ol, li, form, button, input, textarea {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+body {
+  margin: 20px;
+}
+
+/* Style tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style lists */
+ul, ol {
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Style forms */
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* Style buttons */
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Ensure elements don't stretch to the full width */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Add more styles as needed */
+/* Style submit buttons */
+input[type="submit"] {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+/* Hover effect on submit buttons */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Disable button style */
+input[type="submit"]:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+
+/* Additional styling for other button types if needed */
